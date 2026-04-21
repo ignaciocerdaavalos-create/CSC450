@@ -1,0 +1,18 @@
+/* Simple Program with a few Errors for Correction
+   Please be sure to correct all outlined errors.
+*/
+
+#include <iostream>
+#include <conio.h>   // optional for getch() on Windows
+
+using namespace std;
+
+int main()
+{
+    cout << "Welcome to this C++ Program" << endl;
+    cout << "I have corrected all errors for this program." << endl;
+
+    getch(); // pause screen (optional)
+
+    return 0;
+}

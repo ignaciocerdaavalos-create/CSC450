@@ -1,0 +1,18 @@
+/* Second Program for Assignment
+   This program displays two simple output lines.
+*/
+
+#include <iostream>
+#include <conio.h>   // optional for getch()
+
+using namespace std;
+
+int main()
+{
+    cout << "This is the second C++ program." << endl;
+    cout << "All syntax errors have been corrected here as well." << endl;
+
+    getch(); // pause screen (optional)
+
+    return 0;
+}
