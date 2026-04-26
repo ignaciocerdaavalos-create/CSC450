@@ -1,0 +1,15 @@
+BEGIN PROGRAM
+
+FOR counter FROM 1 TO 3 DO
+    DISPLAY "Enter first string: "
+    READ string1
+
+    DISPLAY "Enter second string: "
+    READ string2
+
+    concatenatedString ← string1 + string2
+
+    DISPLAY "Concatenated result: " + concatenatedString
+END FOR
+
+END PROGRAM
