@@ -1,0 +1,26 @@
+START
+
+Declare three integer variables: a, b, c
+Ask the user to enter three integers
+Store the inputs into a, b, c
+
+Create three integer pointers using dynamic memory:
+    p1 = new int
+    p2 = new int
+    p3 = new int
+
+Store the values of a, b, c into the memory pointed to by p1, p2, p3
+
+Display:
+    The values of a, b, c
+    The values stored in *p1, *p2, *p3
+    The memory addresses stored in p1, p2, p3
+
+Use delete to free the dynamic memory:
+    delete p1
+    delete p2
+    delete p3
+
+Set pointers to nullptr
+
+END
