@@ -1,0 +1,20 @@
+START
+
+FUNCTION countUp():
+    FOR i FROM 1 TO 20:
+        PRINT "Counting up: " + i
+        SLEEP for a short time
+
+FUNCTION countDown():
+    FOR i FROM 20 DOWN TO 0:
+        PRINT "Counting down: " + i
+        SLEEP for a short time
+
+MAIN:
+    CREATE thread t1 to run countUp
+    WAIT for t1 to finish
+
+    CREATE thread t2 to run countDown
+    WAIT for t2 to finish
+
+END
